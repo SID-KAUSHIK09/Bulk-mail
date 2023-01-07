@@ -28,7 +28,7 @@ To run this project, you will need to have install-\
 
 ## Demo Video and Presentation links
 [Video](https://drive.google.com/file/d/1ok1s7oXwm4V2IJEyFOnw3TR9fJcBCpsp/view?usp=sharing)\
-[PPT]()
+[PPT](https://docs.google.com/presentation/d/1CszZ3b0uEx1jNVhpQJevn6dllEz_RsJR/edit?usp=sharing&ouid=112297803740019309730&rtpof=true&sd=true)
 
 
 ## Authors
