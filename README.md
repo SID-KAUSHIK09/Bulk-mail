@@ -6,7 +6,7 @@ A Web-app that accepts an XLSX file as input containing receivers' email-IDs in 
 
 ## Deployment
 
-Website is deployed using 'PythonAnywhere' platform.
+Website is deployed using 'PythonAnywhere' platform.\
 Link to the website-
 [https://siddharthkaushik.pythonanywhere.com/](https://siddharthkaushik.pythonanywhere.com/)
 
@@ -19,7 +19,7 @@ Backend-Flask,Python
 
 ## Requirements
 
-To run this project, you will need to have installed
+To run this project, you will need to have install-\
 `openpyxl`
 `requests`
 `flask`
