@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block mainbody %}
+<br><br>
+  
+
+    <div class="mb-3 w-50 p-2 mx-auto" style="width:200px;">
+ <form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" accept=".xlsx">
+      <button type="submit" class="btn btn-light">Upload</button>
+    </form>
+
+</div> 
+      <form action="/achyut" method="post">
+      <div class="input-group mb-3 w-50 p-2 mx-auto" style="width:200px;">
+        <span class="input-group-text" id="basic-addon1">Column's Name having email-Ids</span>
+        <input type="text" class="form-control" name="Email_column_name" aria-label="Username"
+          aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3 w-50 p-2 mx-auto" style="width:200px;">
+        <input type="text" class="form-control" name="sender_id" placeholder="Sender's Email-Id" aria-label="Username">
+        <span class="input-group-text">.</span>
+        <input type="text" class="form-control" name="sender_password" placeholder="App Password" aria-label="Server">
+     
+      </div><div class=" mb-3 w-50 p-2 mx-auto" style="width:200px;">
+      <a class="text-info bg-dark" href="/help">Need help with app password.</a>
+      </div>
+      <div class="input-group mb-3 w-50 p-2 mx-auto" style="width:200px;">
+        <span class="input-group-text" id="basic-addon1">Email's Subject</span>
+        <input type="text" class="form-control" name="subject" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group w-50 p-2 mx-auto" style="width:200px;">
+        <span class="input-group-text">Email's Body</span>
+        <textarea class="form-control" name="body" aria-label="With textarea"></textarea>
+      </div>
+
+      <div class="mb-3 w-50 p-2 mx-auto" style="width:200px;">
+        <div class="input-group">
+          <span class="input-group-text">Time to Send, Format(hr-min-date-mon-year)</span>
+          <textarea class="form-control" placeholder="write x if want to send now" name="time" aria-label="With textarea"></textarea>
+        </div>
+
+      </div>
+      <div class="w-50 p-2 mx-auto" style="width:200px;">
+        <button type="Submit" class="btn btn-light">Submit</button>
+      </div>
+    </form>
+    {% endblock mainbody %}
