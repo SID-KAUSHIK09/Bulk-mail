@@ -12,7 +12,7 @@ Link to the website-
 
 ## Tech used
 
-Frontend-HTML,CSS,JavaScript,Bootstrap,Jinja
+Frontend-HTML,CSS,JavaScript,Bootstrap,Jinja\
 Backend-Flask,Python
 
 
